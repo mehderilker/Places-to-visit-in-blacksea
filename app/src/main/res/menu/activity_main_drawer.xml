@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_place"
+            android:title="Tüm Yerler" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_menu_heart"
+            android:title="Favoriler" />
+
+    </group>
+
+    <item android:title="Şehirler">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_city"
+                android:title="Bartın" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_city"
+                android:title="Sinop" />
+        </menu>
+    </item>
+
+</menu>
